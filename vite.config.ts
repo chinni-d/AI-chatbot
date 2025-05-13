@@ -12,7 +12,7 @@ export default defineConfig({
     port: 6969,
     proxy: {
       "/get": {
-        target: "http://localhost:5000",
+        target: "https://chatapi.dmanikanta.site",
         changeOrigin: true,
         secure: false,
       },
